@@ -70,3 +70,34 @@ button {
     align-items: center;
     text-align: center;
 }
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: pink;
+}
+
+.borderbox {
+    height: 50px;
+    width: auto;
+    border: blue solid 4px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
