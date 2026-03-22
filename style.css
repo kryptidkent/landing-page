@@ -91,13 +91,27 @@ button {
     align-content: center;
     text-align: center;
     background-color: pink;
+    
 }
 
 .borderbox {
+    
     height: 50px;
-    width: auto;
+    width: 50px;
     border: blue solid 4px;
     border-radius: 10px;
     text-align: center;
     
+}
+
+.imgcontainer {
+    width: auto;
+    margin-top: 40px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    
+
 }
